@@ -4,6 +4,10 @@
 
 Visualizing GUI-based tests for Code Reviews
 
+## Frontend
+
+See [frontend](./frontend) folder.
+
 ## License
 
 Copyright © 2024 Andreas Bauer
