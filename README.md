@@ -4,6 +4,13 @@
 
 Visualizing GUI-based tests for Code Reviews
 
+## Architecture
+
+The following diagram shows an overview of the planned architecture.
+It will be updated as the project progresses and the requirements are gathered.
+
+![architecture](./docs/architecture_overview.png)
+
 ## Frontend
 
 See [frontend](./frontend) folder.
