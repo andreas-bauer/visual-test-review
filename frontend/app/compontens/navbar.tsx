@@ -1,11 +1,11 @@
 'use client'
+import Link from 'next/link'
 import { LuGithub, LuClipboardCheck } from 'react-icons/lu'
 
 export default function Navbar() {
   const navItems: { id: number; text: string; link: string }[] = [
-    { id: 1, text: 'Link 1', link: '/link1' },
-    { id: 2, text: 'Link 2', link: '/link2' },
-    { id: 3, text: 'Link 3', link: '/link3' },
+    { id: 1, text: 'Home', link: '/' },
+    { id: 3, text: 'About', link: '/about' },
   ]
 
   return (
@@ -20,9 +20,7 @@ export default function Navbar() {
         <ul className='menu menu-horizontal px-1'>
           {navItems.map((item) => (
             <li key={item.id}>
-              <a onClick={() => console.log('nav to ' + item.link)}>
-                {item.text}
-              </a>
+              <Link href={item.link}>{item.text}</Link>
             </li>
           ))}
         </ul>
