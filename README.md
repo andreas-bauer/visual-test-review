@@ -1,4 +1,5 @@
 [![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
+[![CI Next.js](https://github.com/andreas-bauer/visual-test-review/actions/workflows/nextjs.yml/badge.svg)](https://github.com/andreas-bauer/visual-test-review/actions/workflows/nextjs.yml)
 
 # Visual Test Review
 
