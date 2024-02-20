@@ -26,6 +26,7 @@ export default function Navbar() {
         </ul>
       </div>
       <div className='navbar-end'>
+        <span className='px-4'>v0.1.0</span>
         <a
           target='_blank'
           href='https://github.com/andreas-bauer/visual-test-review'
