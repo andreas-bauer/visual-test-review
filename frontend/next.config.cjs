@@ -5,8 +5,8 @@ const nextConfig = {
   output: 'export',
   basePath: '/visual-test-review',
   publicRuntimeConfig: {
-    version: packageInfo.version
-  }
+    version: packageInfo.version,
+  },
 }
 
 export default nextConfig
