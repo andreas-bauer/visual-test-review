@@ -1,5 +1,5 @@
 /** @type {import('next').NextConfig} */
-const packageInfo = require('./package.json')
+import packageInfo from './package.json' assert { type: "json" }
 
 const nextConfig = {
   output: 'export',

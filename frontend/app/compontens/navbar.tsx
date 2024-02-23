@@ -1,7 +1,7 @@
 'use client'
 import Link from 'next/link'
 import { LuGithub, LuClipboardCheck } from 'react-icons/lu'
-import getConfig from '../../next.config.cjs'
+import getConfig from '../../next.config.mjs'
 
 export default function Navbar() {
   const { publicRuntimeConfig } = getConfig
