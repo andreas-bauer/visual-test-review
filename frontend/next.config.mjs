@@ -1,4 +1,4 @@
-import packageInfo from './package.json' assert { type: "json" }
+import packageInfo from './package.json' assert { type: 'json' }
 
 /** @type {import('next').NextConfig} */
 const nextConfig = {
