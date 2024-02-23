@@ -16,6 +16,30 @@ It will be updated as the project progresses and the requirements are gathered.
 
 See [frontend](./frontend) folder.
 
+### Build
+
+Install all dependencies:
+
+```bash
+npm install
+```
+
+Run the development server:
+
+```bash
+npm run dev
+```
+
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+
+### Development
+
+Before committing code, ensure the code style is followed by running:
+
+```bash
+npm run format:fix
+```
+
 ## License
 
 Copyright © 2024 Andreas Bauer
