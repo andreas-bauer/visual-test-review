@@ -1,8 +1,11 @@
 'use client'
 import Link from 'next/link'
 import { LuGithub, LuClipboardCheck } from 'react-icons/lu'
+import getConfig from '@/next.config.mjs'
 
 export default function Navbar() {
+  const { publicRuntimeConfig } = getConfig
+
   const navItems: { id: number; text: string; link: string }[] = [
     { id: 1, text: 'Home', link: '/' },
     { id: 3, text: 'About', link: '/about' },
@@ -26,7 +29,7 @@ export default function Navbar() {
         </ul>
       </div>
       <div className='navbar-end'>
-        <span className='px-4'>v0.1.0</span>
+        <span className='px-4'>v{publicRuntimeConfig?.version}</span>
         <a
           target='_blank'
           href='https://github.com/andreas-bauer/visual-test-review'
